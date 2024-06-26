@@ -28,6 +28,9 @@ export default function Footer() {
                   className="h-6 sm:h-7 w-auto sm:mx-auto"
                 />
               </a>
+              <a className="bg-green-600 p-2 text-white" href="">
+                helfadgjaij
+              </a>
               <a
                 href=""
                 className={`${buttonVariants({ variant: "default" })} sm:ml-0`}
