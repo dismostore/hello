@@ -12,7 +12,7 @@ export default function Footer() {
         </span>
         <Icons.eBayFooter />
       </div>
-      <div className="bg-white">
+      <div className="bg-gray-900">
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
