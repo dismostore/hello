@@ -1,3 +1,4 @@
+import { buttonVariants } from "@/components/ui/button";
 import { linkVariants } from "@/components/ui/link";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
         <a href="" className={linkVariants({ variant: "default" })}>
           Click here
         </a>
-        <a href="" className={linkVariants({ variant: "footer" })}>
+        <a href="" className={buttonVariants({ variant: "default" })}>
           Click here
         </a>
       </div>
