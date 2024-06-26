@@ -1,10 +1,13 @@
-import { buttonVariants } from "@/components/ui/button";
+import { linkVariants } from "@/components/ui/link";
 
 export default function Home() {
   return (
     <main>
       <div className="m-2">
-        <a href="" className={buttonVariants({ variant: "default" })}>
+        <a href="" className={linkVariants({ variant: "default" })}>
+          Click here
+        </a>
+        <a href="" className={linkVariants({ variant: "button" })}>
           Click here
         </a>
       </div>
