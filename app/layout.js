@@ -10,8 +10,8 @@ export default function RootLayout({ children }) {
       <body className="relative min-h-screen font-quicksand subpixel-antialiased">
         <main className="relative flex flex-col">
           <div className="flex-grow flex-1">{children}</div>
-          <Footer />
         </main>
+        <Footer />
       </body>
     </html>
   );
