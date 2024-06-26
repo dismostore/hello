@@ -1,18 +1,15 @@
-import { buttonVariants } from "@/components/ui/button";
-import { linkVariants } from "@/components/ui/link";
+import FAQ from "@/components/FAQ";
+import Product from "@/components/Product";
+import Description from "@/components/Description";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
-    <div className="m-2">
-      <a href="" className={linkVariants({ variant: "default" })}>
-        Click here
-      </a>
-      <a href="" className={buttonVariants({ variant: "default" })}>
-        Click here
-      </a>
-      <a className="bg-green-600 p-2 text-white" href="">
-        helfadgjaij
-      </a>
-    </div>
+    <>
+      <Product />
+      <Description />
+      <CTA />
+      <FAQ />
+    </>
   );
 }
