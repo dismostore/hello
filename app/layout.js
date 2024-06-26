@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/ebay/styles.css" />
         <meta name="format-detection" content="telephone=no" />
       </head>
-      <body className="relative font-quicksand subpixel-antialiased">
+      <body>
         {children}
         <Footer />
       </body>
