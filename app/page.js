@@ -10,6 +10,9 @@ export default function Home() {
       <a href="" className={buttonVariants({ variant: "default" })}>
         Click here
       </a>
+      <a className="bg-green-600 p-2 text-white" href="">
+        helfadgjaij
+      </a>
     </div>
   );
 }
