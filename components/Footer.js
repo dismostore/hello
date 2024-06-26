@@ -1,6 +1,7 @@
 import { Icons } from "./ui/icons";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { linkVariants } from "./ui/link";
+import { buttonVariants } from "./ui/button";
 
 export default function Footer() {
   return (
@@ -26,6 +27,12 @@ export default function Footer() {
                   fillColor="fill-gray-50"
                   className="h-6 sm:h-7 w-auto sm:mx-auto"
                 />
+              </a>
+              <a
+                href=""
+                className={`${buttonVariants({ variant: "default" })} sm:ml-0`}
+              >
+                hello
               </a>
             </div>
             <nav className="-mb-6 columns-2 sm:flex sm:justify-center mx-auto sm:space-x-8">
