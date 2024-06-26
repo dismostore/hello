@@ -7,7 +7,7 @@ export default function Home() {
         <a href="" className={linkVariants({ variant: "default" })}>
           Click here
         </a>
-        <a href="" className={linkVariants({ variant: "button" })}>
+        <a href="" className={linkVariants({ variant: "footer" })}>
           Click here
         </a>
       </div>

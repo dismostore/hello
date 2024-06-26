@@ -12,7 +12,6 @@ const linkVariants = cva(
         default: "text-gray-50 bg-green-800 hover:bg-green-800/90",
         footer:
           "text-gray-300 hover:text-gray-50 font-semibold p-2 -ml-2 sm:ml-0",
-        button: "text-gray-50 bg-green-800 hover:bg-green-800/90",
       },
       size: {
         default: "h-10 px-4 py-2",
