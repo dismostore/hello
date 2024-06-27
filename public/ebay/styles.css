@@ -574,10 +574,6 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .right-2 {
   right: 0.5rem;
 }
@@ -792,10 +788,6 @@ video {
   flex: 1 1 0%;
 }
 
-.flex-grow-0 {
-  flex-grow: 0;
-}
-
 .origin-center {
   transform-origin: center;
 }
@@ -981,6 +973,11 @@ video {
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 26 35 / var(--tw-bg-opacity));
+}
+
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(60 135 102 / var(--tw-bg-opacity));
 }
 
 .bg-green-800 {
@@ -1377,6 +1374,10 @@ details summary::-webkit-details-marker {
 
 .hover\:bg-gray-100\/80:hover {
   background-color: rgb(242 244 247 / 0.8);
+}
+
+.hover\:bg-green-600\/90:hover {
+  background-color: rgb(60 135 102 / 0.9);
 }
 
 .hover\:bg-green-800\/90:hover {
