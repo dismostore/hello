@@ -133,6 +133,12 @@ export default async function FAQ() {
               >
                 Get in touch
               </a>
+              <a
+                href=""
+                className="h-10 px-4 py-2 inline-flex items-center font-inter justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-600 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-gray-50 dark:text-gray-800 bg-green-800 hover:bg-green-800/90 dark:bg-green-50 dark:hover:bg-green-50/90"
+              >
+                Shaddy
+              </a>
             </div>
           </div>
         </div>

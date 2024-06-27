@@ -647,6 +647,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .ml-8 {
   margin-left: 2rem;
 }
@@ -661,10 +665,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .inline-block {
@@ -992,11 +992,6 @@ video {
   background-color: rgb(60 135 102 / var(--tw-bg-opacity));
 }
 
-.bg-green-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(42 94 71 / var(--tw-bg-opacity));
-}
-
 .bg-green-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 67 51 / var(--tw-bg-opacity));
@@ -1020,6 +1015,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-green-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 94 71 / var(--tw-bg-opacity));
 }
 
 .fill-gray-50 {
@@ -1415,14 +1415,14 @@ details summary::-webkit-details-marker {
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
-.hover\:text-gray-900:hover {
-  --tw-text-opacity: 1;
-  color: rgb(17 26 35 / var(--tw-text-opacity));
-}
-
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(37 56 74 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(17 26 35 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1443,6 +1443,10 @@ details summary::-webkit-details-marker {
 .focus-visible\:ring-green-600:focus-visible {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(60 135 102 / var(--tw-ring-opacity));
+}
+
+.focus-visible\:ring-offset-2:focus-visible {
+  --tw-ring-offset-width: 2px;
 }
 
 .disabled\:pointer-events-none:disabled {
@@ -1658,6 +1662,11 @@ details summary::-webkit-details-marker {
     background-color: rgb(14 22 29 / var(--tw-bg-opacity));
   }
 
+  .dark\:bg-green-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(227 243 236 / var(--tw-bg-opacity));
+  }
+
   .dark\:fill-gray-50 {
     fill: #F9FAFB;
   }
@@ -1695,6 +1704,11 @@ details summary::-webkit-details-marker {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
+  .dark\:text-gray-800 {
+    --tw-text-opacity: 1;
+    color: rgb(37 56 74 / var(--tw-text-opacity));
+  }
+
   .dark\:ring-gray-900 {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(17 26 35 / var(--tw-ring-opacity));
@@ -1716,6 +1730,10 @@ details summary::-webkit-details-marker {
 
   .dark\:hover\:bg-gray-800\/80:hover {
     background-color: rgb(37 56 74 / 0.8);
+  }
+
+  .dark\:hover\:bg-green-50\/90:hover {
+    background-color: rgb(227 243 236 / 0.9);
   }
 
   .dark\:hover\:stroke-gray-400:hover {

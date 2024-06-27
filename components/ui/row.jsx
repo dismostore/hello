@@ -1,4 +1,4 @@
-const Row = ({ title, description }) => {
+export default function Row({ title, description }) {
   return (
     <tr className="even:bg-gray-50 dark:even:bg-gray-800">
       <td className="whitespace-nowrap p-4 text-gray-800 dark:text-gray-50 font-inter text-sm sm:w-48">
@@ -9,6 +9,4 @@ const Row = ({ title, description }) => {
       </td>
     </tr>
   );
-};
-
-export default Row;
+}
