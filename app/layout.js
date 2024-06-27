@@ -8,11 +8,13 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/ebay/styles.css" />
         <meta name="format-detection" content="telephone=no" />
       </head>
-      <body className="relative min-h-screen font-quicksand subpixel-antialiased bg-white dark:bg-gray-900">
+      <body className="min-h-screen font-quicksand subpixel-antialiased bg-white dark:bg-gray-900">
         <NavBar />
-        <main className="relative flex flex-col">
-          <div className="flex-grow flex-1">{children}</div>
-        </main>
+        <div className="relative flex min-h-screen flex-col">
+          <main className="flex-1">
+            <div>{children}</div>
+          </main>
+        </div>
         <Footer />
       </body>
     </html>

@@ -574,6 +574,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .right-2 {
   right: 0.5rem;
 }
@@ -788,8 +792,8 @@ video {
   flex: 1 1 0%;
 }
 
-.flex-grow {
-  flex-grow: 1;
+.flex-grow-0 {
+  flex-grow: 0;
 }
 
 .origin-center {

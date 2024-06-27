@@ -41,10 +41,7 @@ export default async function Testy({ database }) {
                 Get in touch
               </a>
 
-              <a
-                href=""
-                className="h-10 px-4 py-2 font-inter rounded-md text-sm font-medium ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-600 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-gray-50 dark:text-gray-800 bg-green-800 hover:bg-green-800/90 dark:bg-green-50 dark:hover:bg-green-50/90"
-              >
+              <a href="" className="bg-green-800 text-gray-50 p-2">
                 Get in touch
               </a>
             </div>
