@@ -8,7 +8,7 @@ export default async function FAQ({ database }) {
   return (
     <section>
       <MaxWidthWrapper className="py-16 sm:py-24">
-        <div className="flex flex-col gap-8 sm:gap-12 lg:gap-16">
+        <div className="flex flex-col sm:gap-12 lg:gap-16">
           <div className="mx-auto">
             <h2 className="text-2xl text-center font-bold text-gray-800 dark:text-gray-50 mb-4">
               Frequently asked questions
@@ -90,13 +90,6 @@ export default async function FAQ({ database }) {
             </div>
             <div className="mx-auto">
               <a href="" className={buttonVariants({ variant: "default" })}>
-                Get in touch
-              </a>
-
-              <a
-                href=""
-                className="h-10 px-4 py-2 font-inter rounded-md text-sm font-medium ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-600 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-gray-50 dark:text-gray-800 bg-green-800 hover:bg-green-800/90 dark:bg-green-50 dark:hover:bg-green-50/90"
-              >
                 Get in touch
               </a>
             </div>

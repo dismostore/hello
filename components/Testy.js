@@ -8,7 +8,7 @@ export default async function Testy({ database }) {
   return (
     <section>
       <MaxWidthWrapper className="py-16 sm:py-24">
-        <div className="flex flex-col gap-8 sm:gap-12 lg:gap-16">
+        <div className="flex flex-col sm:gap-12 lg:gap-16">
           <div className="mx-auto">
             <h2 className="text-2xl text-center font-bold text-gray-800 dark:text-gray-50 mb-4">
               Frequently asked questions
@@ -38,13 +38,6 @@ export default async function Testy({ database }) {
             </div>
             <div className="mx-auto">
               <a href="" className={buttonVariants({ variant: "default" })}>
-                Get in touch
-              </a>
-
-              <a
-                href=""
-                className="bg-green-600 text-white hover:bg-green-600/90 p-2"
-              >
                 Get in touch
               </a>
             </div>
