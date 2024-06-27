@@ -2,14 +2,13 @@ import FAQ from "@/components/FAQ";
 import Product from "@/components/Product";
 import Description from "@/components/Description";
 import CTA from "@/components/CTA";
+import { getDatabase } from "@/lib/fetch";
+import Testy from "@/components/Testy";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
-      <Product />
-      <Description />
-      <CTA />
-      <FAQ />
+      <Testy />
     </>
   );
 }

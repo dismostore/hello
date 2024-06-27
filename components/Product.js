@@ -2,11 +2,7 @@ import { Icons } from "./ui/icons";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Card } from "./ui/card";
 
-import { promises as fs } from "fs";
-
-export default async function Product() {
-  const file = await fs.readFile(process.cwd() + "/data.json", "utf8");
-  const data = JSON.parse(file);
+export default async function Product({ database }) {
   return (
     <section aria-labelledby="Product overview">
       <MaxWidthWrapper className="py-12 lg:py-16">
@@ -15,9 +11,9 @@ export default async function Product() {
             <img
               className="aspect-6/4 rounded-2xl w-full object-cover object-center relative text-gray-900 dark:text-white"
               src="https://dismo.co.uk/ebay/600x400.png"
-              alt={`${data.title} displayed on a light grey background`}
+              alt={`${database.model} displayed on a light grey background`}
             />
-            <div className="absolute top-2 right-2 sm:top-4 sm:right-4 lg:-top-6 lg:-right-6 w-1/3 sm:w-1/4 h-auto bg-white rounded-full">
+            <div className="absolute top-2 right-2 sm:top-4 sm:right-4 lg:-top-6 lg:-right-6 w-1/3 sm:w-1/4 h-auto">
               <span className="sr-only">
                 Ecologi - 1 tree planted with every order
               </span>
@@ -26,22 +22,22 @@ export default async function Product() {
           </div>
           <div className="w-full">
             <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-50 mb-1">
-              {data.title}
+              {database.model}
             </h1>
             <h2 id="information-heading" className="sr-only">
               Product information
             </h2>
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
-              {data.subheading}
+              {database.colour} | {database.storage} | {database.network}
             </p>
             <div className="flex flex-col pb-6 gap-4">
-              <p className="text-gray-600 dark:text-gray-300">
-                {data.summary.one}
-              </p>
-              <p className="text-gray-600 dark:text-gray-300">
-                {data.summary.two}
-              </p>
+              {database.summary.map((data) => (
+                <p key={data.id} className="text-gray-600 dark:text-gray-300">
+                  {data.value}
+                </p>
+              ))}
             </div>
+
             <span className="sr-only">Highlights</span>
             <Card className="max-w-xl flex flex-col sm:flex-row py-4 px-3 gap-2 justify-between">
               <div className="flex space-x-3 items-center">

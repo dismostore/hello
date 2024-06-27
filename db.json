@@ -1,0 +1,137 @@
+{
+  "database": {
+    "model": "iPhone 12",
+    "storage": "64GB",
+    "colour": "Blue",
+    "network": "Unlocked",
+    "specs": [
+      {
+        "id": "1",
+        "spec": "Manufacturer",
+        "value": "Apple"
+      },
+      {
+        "id": "2",
+        "spec": "Model",
+        "value": "iPhone 12"
+      },
+      {
+        "id": "3",
+        "spec": "Colour",
+        "value": "Blue"
+      },
+      {
+        "id": "4",
+        "spec": "IMEI",
+        "value": "35 574363 364753 6"
+      },
+      {
+        "id": "5",
+        "spec": "Serial number",
+        "value": "C6K4G73MD3PV"
+      },
+      {
+        "id": "6",
+        "spec": "Storage",
+        "value": "64GB"
+      },
+      {
+        "id": "7",
+        "spec": "Size & weight",
+        "value": "71.5 x 146.7 x 7.4mm / 162g"
+      },
+      {
+        "id": "8",
+        "spec": "Chip",
+        "value": "A14 Bionic chip"
+      },
+      {
+        "id": "9",
+        "spec": "Camera",
+        "value": "Dual 12MP cameras"
+      }
+    ],
+    "summary": [
+      {
+        "id": "21",
+        "value": "This iPhone 12 is in excellent fully-working condition. It comes with the original box and charger, is unlocked to all networks, and has been thoroughly tested so you can buy with confidence!"
+      },
+      {
+        "id": "22",
+        "value": "This phone will be shipped within 24 hours of confirmed payment."
+      }
+    ],
+    "description": [
+      {
+        "id": "31",
+        "value": "The iPhone 12 offers an unparalleled user experience, powered by the A14 Bionic chip and featuring a stunning Super Retina XDR OLED display protected by the new Ceramic Shield. It’s 12-megapixel dual camera system, equipped with wide and ultra wide lenses, excels in Night Mode for superb photos."
+      },
+      {
+        "id": "32",
+        "value": "These outstanding features are further enhanced by a sleek new design, a MagSafe system for effortless wireless charging, and support for faster 5G networks."
+      }
+    ],
+    "shipping": [
+      {
+        "id": "90",
+        "value": "For customers within the UK, this phone will be shipped via Royal Mail Guaranteed by 1pm. This is Royal Mail's premium service, ensuring next day delivery."
+      },
+      {
+        "id": "91",
+        "value": "For customers outside of the UK, this phone will be shipped via Fedex Global Express. Delivery times can vary due to customs, however 1-3 working days is a recommended estimate."
+      },
+      {
+        "id": "92",
+        "value": "This phone will be shipped within 24 hours of confirmed payment. Both services are fully ensured to give you piece of mind!"
+      }
+    ],
+    "about": [
+      {
+        "id": "100",
+        "value": "We’re glad you asked! DISMO was founded in 2020 to help combat the 52 million tonnes of e-wasted produced that year alone. We are deeply committed to investing in our environment. On average phone we sell saves 200 tonnes of CO2. We have also partnered with Ecologi to plant one tree for every phone sold!"
+      },
+      {
+        "id": "101",
+        "value": "But that’s not all! All of our phones are free from cosmetic defects, have a new battery, and include a 12-month warranty. Could it get any better?"
+      }
+    ],
+    "included": [
+      {
+        "id": "40",
+        "value": "iPhone 12"
+      },
+      {
+        "id": "41",
+        "value": "USB-C lightning cable"
+      },
+      {
+        "id": "42",
+        "value": "Box & manuals"
+      },
+      {
+        "id": "43",
+        "value": "Warranty certificate"
+      }
+    ],
+    "faceid": {
+      "id": "120",
+      "title": "Face ID",
+      "value": "Facial recognition technology for secure and effortless authentication"
+    },
+    "cameras": {
+      "id": "121",
+      "title": "Advanced cameras",
+      "value": "Dual 12MP cameras with Portrait mode, next-generation Smart HDR, and 4K video recording capabilities"
+    },
+    "battery": {
+      "id": "122",
+      "title": "All-day battery life",
+      "value": "Long lasting battery designed to keep you powered throughout the day"
+    },
+    "chip": {
+      "id": "123",
+      "title": "A14 Bionic chip",
+      "value": "Unparalleled performance and efficiency with the cutting-edge A14 Bionic chip"
+    }
+  }
+}

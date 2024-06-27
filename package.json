@@ -8,7 +8,8 @@
     "lint": "next lint",
     "prettier": "npx prettier --write .",
     "css": "tailwindcss -i ./app/globals.css -o ./public/ebay/styles.css",
-    "dev": "concurrently \"next dev\" \"tailwindcss -i ./app/globals.css -o ./public/ebay/styles.css --watch\""
+    "dev": "concurrently \"next dev\" \"tailwindcss -i ./app/globals.css -o ./public/ebay/styles.css --watch\"",
+    "db": "json-server --watch --port 4000 ./db.json"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
