@@ -1,7 +1,7 @@
 import Details from "./ui/details";
 import { Icons } from "./ui/icons";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import Row from "./ui/Row";
+import Row from "./ui/row";
 import { promises as fs } from "fs";
 import { buttonVariants } from "./ui/button";
 
