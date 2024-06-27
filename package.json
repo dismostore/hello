@@ -12,6 +12,8 @@
     "db": "json-server --watch --port 4000 ./db.json"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.602.0",
+    "@aws-sdk/lib-dynamodb": "^3.602.0",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -25,6 +27,8 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.2.4",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5"
   }
 }

@@ -5,7 +5,7 @@ import { linkVariants } from "./ui/link";
 export default function Footer() {
   return (
     <footer>
-      <div className="mx-auto max-w-7xl w-full h-auto">
+      <div className="mx-auto h-auto w-full max-w-7xl">
         <span className="sr-only">
           People planting trees and removing rubbish
         </span>
@@ -24,11 +24,11 @@ export default function Footer() {
               >
                 <Icons.Logo
                   fillColor="fill-gray-50"
-                  className="h-6 sm:h-7 w-auto sm:mx-auto"
+                  className="h-6 w-auto sm:mx-auto sm:h-7"
                 />
               </a>
             </div>
-            <nav className="-mb-6 columns-2 sm:flex sm:justify-center mx-auto sm:space-x-8">
+            <nav className="mx-auto -mb-6 columns-2 sm:flex sm:justify-center sm:space-x-8">
               <div className="mb-4">
                 <a href="" className={linkVariants({ variant: "footer" })}>
                   About DISMO
@@ -51,7 +51,7 @@ export default function Footer() {
               </div>
             </nav>
             <div className="mt-16 border-t border-gray-600 pt-8 sm:mt-20 lg:mt-24">
-              <p className="text-xs text-gray-400 font-inter sm:text-center sm:mx-auto">
+              <p className="font-inter text-xs text-gray-400 sm:mx-auto sm:text-center">
                 © 2024 Distro Mobiles Ltd T/A DISMO. All rights reserved.
               </p>
             </div>

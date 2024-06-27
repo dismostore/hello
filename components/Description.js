@@ -8,7 +8,7 @@ export default async function Description({ database }) {
       <MaxWidthWrapper className="pb-16 sm:pb-24">
         <div className="mx-auto flex flex-col gap-8 sm:gap-12 lg:gap-16">
           <div>
-            <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-50 mb-4">
+            <h2 className="mb-4 text-2xl font-bold text-gray-800 dark:text-gray-50">
               Product description
             </h2>
             <div className="flex flex-col gap-4">
@@ -19,7 +19,7 @@ export default async function Description({ database }) {
               ))}
             </div>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-16">
+          <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-16">
             <div className="flex flex-col gap-8 sm:gap-12 lg:gap-16">
               <Feature
                 icon={<Icons.FaceID />}
@@ -32,7 +32,7 @@ export default async function Description({ database }) {
                 description={database.cameras.value}
               />
 
-              <div className="hidden sm:flex sm:flex-col lg:hidden gap-8 sm:gap-12 lg:gap-16">
+              <div className="hidden gap-8 sm:flex sm:flex-col sm:gap-12 lg:hidden lg:gap-16">
                 <Feature
                   icon={<Icons.Battery />}
                   title={database.battery.title}
@@ -45,7 +45,7 @@ export default async function Description({ database }) {
                 />
               </div>
             </div>
-            <div className="flex flex-col gap-8 sm:order-last sm:hidden lg:flex lg:flex-col lg:gap-16 lg:mt-auto">
+            <div className="flex flex-col gap-8 sm:order-last sm:hidden lg:mt-auto lg:flex lg:flex-col lg:gap-16">
               <Feature
                 icon={<Icons.Battery />}
                 title={database.battery.title}
@@ -59,7 +59,7 @@ export default async function Description({ database }) {
             </div>
 
             <img
-              className="aspect-6/4 w-full object-cover object-top sm:aspect-4/6 text-gray-900 dark:text-white"
+              className="aspect-6/4 w-full object-cover object-top text-gray-900 sm:aspect-4/6 dark:text-white"
               src="https://dismo.co.uk/ebay/400x600.png"
               alt={database.model}
             />

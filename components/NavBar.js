@@ -4,10 +4,10 @@ import { linkVariants } from "./ui/link";
 
 export default function NavBar() {
   return (
-    <header className="bg-white dark:bg-gray-900 top-0 border-b border-gray-200 dark:border-gray-700">
+    <header className="top-0 border-b border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
       <MaxWidthWrapper>
         <nav
-          className="flex relative h-16 items-center justify-between"
+          className="relative flex h-16 items-center justify-between"
           aria-label="Global"
         >
           <a href="" className={linkVariants({ variant: "logo" })}>
@@ -16,7 +16,7 @@ export default function NavBar() {
               className="h-6 w-auto"
             />
           </a>
-          <div className="hidden h-14 lg:flex justify-center space-x-6">
+          <div className="hidden h-14 justify-center space-x-6 lg:flex">
             <a href="" className={linkVariants({ variant: "default" })}>
               iPhone
             </a>
@@ -30,7 +30,7 @@ export default function NavBar() {
               Google
             </a>
           </div>
-          <div className="flex items-center gap-4 justify-end">
+          <div className="flex items-center justify-end gap-4">
             <a href="" className={linkVariants({ variant: "icon" })}>
               <span className="sr-only">Contact support</span>
               <Icons.Support />

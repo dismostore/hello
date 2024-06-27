@@ -167,7 +167,7 @@ export const Icons = {
   Accordian: () => (
     <svg
       aria-hidden="true"
-      className="stroke-gray-400 dark:stroke-gray-500 h-6 w-6"
+      className="h-6 w-6 stroke-gray-400 dark:stroke-gray-500"
       fill="none"
       viewBox="0 0 24 24"
       strokeWidth="2"
@@ -179,7 +179,7 @@ export const Icons = {
         d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
       ></path>
       <path
-        className="transition origin-center group-open:rotate-90 duration-200"
+        className="origin-center transition duration-200 group-open:rotate-90"
         d="M12 8V16"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -216,7 +216,7 @@ export const Icons = {
   Van: () => (
     <svg
       aria-hidden="true"
-      className="stroke-green-600 dark:stroke-green-300 h-6 w-6"
+      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -231,7 +231,7 @@ export const Icons = {
   GB: () => (
     <svg
       aria-hidden="true"
-      className="relative inline-block h-8 w-8 rounded-full bg-white dark:bg-gray-900 ring-2 ring-white dark:ring-gray-900"
+      className="relative inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -299,7 +299,7 @@ export const Icons = {
   IE: () => (
     <svg
       aria-hidden="true"
-      className="relative z-10 inline-block h-8 w-8 rounded-full bg-white dark:bg-gray-900 ring-2 ring-white dark:ring-gray-900"
+      className="relative z-10 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -323,7 +323,7 @@ export const Icons = {
   DE: () => (
     <svg
       aria-hidden="true"
-      className="relative z-20 inline-block h-8 w-8 rounded-full bg-white dark:bg-gray-900 ring-2 ring-white dark:ring-gray-900"
+      className="relative z-20 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -347,7 +347,7 @@ export const Icons = {
   FR: () => (
     <svg
       aria-hidden="true"
-      className="relative z-30 inline-block h-8 w-8 rounded-full bg-white dark:bg-gray-900 ring-2 ring-white dark:ring-gray-900"
+      className="relative z-30 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -370,7 +370,7 @@ export const Icons = {
   US: () => (
     <svg
       aria-hidden="true"
-      className="relative z-40 inline-block h-8 w-8 rounded-full bg-white dark:bg-gray-900 ring-2 ring-white dark:ring-gray-900"
+      className="relative z-40 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -406,7 +406,7 @@ export const Icons = {
   ZA: () => (
     <svg
       aria-hidden="true"
-      className="relative z-50 inline-block h-8 w-8 rounded-full bg-white dark:bg-gray-900 ring-2 ring-white dark:ring-gray-900"
+      className="relative z-50 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -447,7 +447,7 @@ export const Icons = {
   Shield: () => (
     <svg
       aria-hidden="true"
-      className="stroke-green-600 dark:stroke-green-300 h-6 w-6"
+      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -463,7 +463,7 @@ export const Icons = {
   Return: () => (
     <svg
       aria-hidden="true"
-      className="stroke-green-600 dark:stroke-green-300 h-6 w-6"
+      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -478,7 +478,7 @@ export const Icons = {
   FaceID: () => (
     <svg
       aria-hidden="true"
-      className="stroke-green-600 dark:stroke-green-300 h-6 w-6"
+      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -493,7 +493,7 @@ export const Icons = {
   Camera: () => (
     <svg
       aria-hidden="true"
-      className="stroke-green-600 dark:stroke-green-300 h-6 w-6"
+      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -508,7 +508,7 @@ export const Icons = {
   Battery: () => (
     <svg
       aria-hidden="true"
-      className="stroke-green-600 dark:stroke-green-300 h-6 w-6"
+      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -523,7 +523,7 @@ export const Icons = {
   Chip: () => (
     <svg
       aria-hidden="true"
-      className="stroke-green-600 dark:stroke-green-300 h-6 w-6"
+      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -1818,8 +1818,7 @@ export const Icons = {
   EmployeeOne: () => (
     <svg
       aria-hidden="true"
-      className="relative inline-block h-12 w-12 rounded-full ring-2
-      ring-white dark:ring-gray-900 bg-unique-100"
+      className="relative inline-block h-12 w-12 rounded-full bg-unique-100 ring-2 ring-white dark:ring-gray-900"
       viewBox="0 0 48 48"
     >
       <g>
@@ -1897,7 +1896,7 @@ export const Icons = {
   EmployeeTwo: () => (
     <svg
       aria-hidden="true"
-      className="relative z-10 inline-block h-14 w-14 rounded-full ring-2 ring-white dark:ring-gray-900 bg-unique-200"
+      className="relative z-10 inline-block h-14 w-14 rounded-full bg-unique-200 ring-2 ring-white dark:ring-gray-900"
       viewBox="0 0 56 56"
       fill="none"
     >
@@ -1996,8 +1995,7 @@ export const Icons = {
   EmployeeThree: () => (
     <svg
       aria-hidden="true"
-      className="relative inline-block h-12 w-12 rounded-full ring-2
-      ring-white dark:ring-gray-900 bg-unique-300"
+      className="relative inline-block h-12 w-12 rounded-full bg-unique-300 ring-2 ring-white dark:ring-gray-900"
       viewBox="0 0 48 48"
       fill="none"
     >
