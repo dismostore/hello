@@ -4,7 +4,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 
 export default async function Description({ database }) {
   return (
-    <section>
+    <section aria-labelledby="product description">
       <MaxWidthWrapper className="pb-16 sm:pb-24">
         <div className="mx-auto flex flex-col gap-8 sm:gap-12 lg:gap-16">
           <div>
@@ -20,6 +20,7 @@ export default async function Description({ database }) {
             </div>
           </div>
           <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-16">
+            <span className="sr-only">Features</span>
             <div className="flex flex-col gap-8 sm:gap-12 lg:gap-16">
               <Feature
                 icon={<Icons.FaceID />}

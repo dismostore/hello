@@ -1,6 +1,7 @@
 export const Icons = {
   Logo: ({ fillColor, className }) => (
     <svg
+      aria-hidden="true"
       className={className}
       viewBox="0 0 112 24"
       fill="none"
@@ -21,14 +22,14 @@ export const Icons = {
     </svg>
   ),
   Ecologi: () => (
-    <svg aria-hidden="true" viewBox="0 0 64 64">
+    <svg aria-hidden="true" className="overflow-visible" viewBox="0 0 64 64">
       <circle
         cx="32"
         cy="32"
         r="31.625"
         fill="white"
         stroke="#25384A"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
       <path
         d="M44.1504 22.9224H55.9637V23.9655H43.7275L44.1504 22.9224Z"
@@ -167,7 +168,7 @@ export const Icons = {
   Accordian: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-gray-400 dark:stroke-gray-500"
+      className="h-6 w-6 overflow-visible stroke-gray-400 dark:stroke-gray-500"
       fill="none"
       viewBox="0 0 24 24"
       strokeWidth="2"
@@ -193,7 +194,12 @@ export const Icons = {
     </svg>
   ),
   Support: () => (
-    <svg aria-hidden="true" className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+    <svg
+      aria-hidden="true"
+      className="h-6 w-6 overflow-visible"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
       <path
         d="M6.09436 11.2288C6.03221 10.8282 5.99996 10.4179 5.99996 10C5.99996 5.58172 9.60525 2 14.0526 2C18.4999 2 22.1052 5.58172 22.1052 10C22.1052 10.9981 21.9213 11.9535 21.5852 12.8345C21.5154 13.0175 21.4804 13.109 21.4646 13.1804C21.4489 13.2512 21.4428 13.301 21.4411 13.3735C21.4394 13.4466 21.4493 13.5272 21.4692 13.6883L21.8717 16.9585C21.9153 17.3125 21.9371 17.4895 21.8782 17.6182C21.8266 17.731 21.735 17.8205 21.6211 17.8695C21.4911 17.9254 21.3146 17.8995 20.9617 17.8478L17.7765 17.3809C17.6101 17.3565 17.527 17.3443 17.4512 17.3448C17.3763 17.3452 17.3245 17.3507 17.2511 17.3661C17.177 17.3817 17.0823 17.4172 16.893 17.4881C16.0097 17.819 15.0524 18 14.0526 18C13.6344 18 13.2237 17.9683 12.8227 17.9073M7.63158 22C10.5965 22 13 19.5376 13 16.5C13 13.4624 10.5965 11 7.63158 11C4.66668 11 2.26316 13.4624 2.26316 16.5C2.26316 17.1106 2.36028 17.6979 2.53955 18.2467C2.61533 18.4787 2.65322 18.5947 2.66566 18.6739C2.67864 18.7567 2.68091 18.8031 2.67608 18.8867C2.67145 18.9668 2.65141 19.0573 2.61134 19.2383L2 22L4.9948 21.591C5.15827 21.5687 5.24 21.5575 5.31137 21.558C5.38652 21.5585 5.42641 21.5626 5.50011 21.5773C5.5701 21.5912 5.67416 21.6279 5.88227 21.7014C6.43059 21.8949 7.01911 22 7.63158 22Z"
         strokeWidth="2"
@@ -203,7 +209,12 @@ export const Icons = {
     </svg>
   ),
   ShoppingBag: () => (
-    <svg aria-hidden="true" className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+    <svg
+      aria-hidden="true"
+      className="h-6 w-6 overflow-visible"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
       <path
         d="M16.0004 9V6C16.0004 3.79086 14.2095 2 12.0004 2C9.79123 2 8.00037 3.79086 8.00037 6V9M3.59237 10.352L2.99237 16.752C2.82178 18.5717 2.73648 19.4815 3.03842 20.1843C3.30367 20.8016 3.76849 21.3121 4.35839 21.6338C5.0299 22 5.94374 22 7.77142 22H16.2293C18.057 22 18.9708 22 19.6423 21.6338C20.2322 21.3121 20.6971 20.8016 20.9623 20.1843C21.2643 19.4815 21.179 18.5717 21.0084 16.752L20.4084 10.352C20.2643 8.81535 20.1923 8.04704 19.8467 7.46616C19.5424 6.95458 19.0927 6.54511 18.555 6.28984C17.9444 6 17.1727 6 15.6293 6L8.37142 6C6.82806 6 6.05638 6 5.44579 6.28984C4.90803 6.54511 4.45838 6.95458 4.15403 7.46616C3.80846 8.04704 3.73643 8.81534 3.59237 10.352Z"
         strokeWidth="2"
@@ -216,7 +227,7 @@ export const Icons = {
   Van: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
+      className="h-6 w-6 overflow-visible stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -231,7 +242,7 @@ export const Icons = {
   GB: () => (
     <svg
       aria-hidden="true"
-      className="relative inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
+      className="relative inline-block h-8 w-8 overflow-visible rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -299,7 +310,7 @@ export const Icons = {
   IE: () => (
     <svg
       aria-hidden="true"
-      className="relative z-10 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
+      className="relative z-10 inline-block h-8 w-8 overflow-visible rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -323,7 +334,7 @@ export const Icons = {
   DE: () => (
     <svg
       aria-hidden="true"
-      className="relative z-20 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
+      className="relative z-20 inline-block h-8 w-8 overflow-visible rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -347,7 +358,7 @@ export const Icons = {
   FR: () => (
     <svg
       aria-hidden="true"
-      className="relative z-30 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
+      className="relative z-30 inline-block h-8 w-8 overflow-visible rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -370,7 +381,7 @@ export const Icons = {
   US: () => (
     <svg
       aria-hidden="true"
-      className="relative z-40 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
+      className="relative z-40 inline-block h-8 w-8 overflow-visible rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -406,7 +417,7 @@ export const Icons = {
   ZA: () => (
     <svg
       aria-hidden="true"
-      className="relative z-50 inline-block h-8 w-8 rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
+      className="relative z-50 inline-block h-8 w-8 overflow-visible rounded-full bg-white ring-2 ring-white dark:bg-gray-900 dark:ring-gray-900"
       viewBox="0 0 32 32"
       fill="none"
     >
@@ -447,7 +458,7 @@ export const Icons = {
   Shield: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
+      className="h-6 w-6 overflow-visible stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -463,7 +474,7 @@ export const Icons = {
   Return: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
+      className="h-6 w-6 overflow-visible stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -478,7 +489,7 @@ export const Icons = {
   FaceID: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
+      className="h-6 w-6 overflow-visible stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -493,7 +504,7 @@ export const Icons = {
   Camera: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
+      className="h-6 w-6 overflow-visible stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -508,7 +519,7 @@ export const Icons = {
   Battery: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
+      className="h-6 w-6 overflow-visible stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >
@@ -523,7 +534,7 @@ export const Icons = {
   Chip: () => (
     <svg
       aria-hidden="true"
-      className="h-6 w-6 stroke-green-600 dark:stroke-green-300"
+      className="h-6 w-6 overflow-visible stroke-green-600 dark:stroke-green-300"
       viewBox="0 0 24 24"
       fill="none"
     >

@@ -647,20 +647,16 @@ video {
   margin-left: 0.75rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .inline-block {
@@ -673,10 +669,6 @@ video {
 
 .inline-flex {
   display: inline-flex;
-}
-
-.table {
-  display: table;
 }
 
 .grid {
@@ -772,10 +764,6 @@ video {
   max-width: 48rem;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
-}
-
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -794,10 +782,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.list-disc {
-  list-style-type: disc;
 }
 
 .list-none {
@@ -833,8 +817,8 @@ video {
   justify-content: space-between;
 }
 
-.gap-1 {
-  gap: 0.25rem;
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-2 {
@@ -896,21 +880,14 @@ video {
   margin-bottom: calc(0.375rem * var(--tw-space-y-reverse));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.divide-y > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
-
-.divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-opacity: 1;
-  border-color: rgb(234 236 240 / var(--tw-divide-opacity));
+.overflow-visible {
+  overflow: visible;
 }
 
 .whitespace-nowrap {
@@ -1098,20 +1075,12 @@ video {
   padding-bottom: 2rem;
 }
 
-.pr-12 {
-  padding-right: 3rem;
-}
-
 .pt-0 {
   padding-top: 0px;
 }
 
 .pt-16 {
   padding-top: 4rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .pt-8 {
@@ -1458,8 +1427,8 @@ details summary::-webkit-details-marker {
     margin-left: 0px;
   }
 
-  .sm\:mt-20 {
-    margin-top: 5rem;
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .sm\:flex {
@@ -1510,10 +1479,10 @@ details summary::-webkit-details-marker {
     gap: 3rem;
   }
 
-  .sm\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  .sm\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .sm\:px-6 {
@@ -1548,8 +1517,8 @@ details summary::-webkit-details-marker {
     top: -1.5rem;
   }
 
-  .lg\:mt-24 {
-    margin-top: 6rem;
+  .lg\:mt-12 {
+    margin-top: 3rem;
   }
 
   .lg\:mt-auto {
@@ -1596,11 +1565,6 @@ details summary::-webkit-details-marker {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgb(52 64 84 / var(--tw-divide-opacity));
-  }
-
   .dark\:border-gray-700 {
     --tw-border-opacity: 1;
     border-color: rgb(52 64 84 / var(--tw-border-opacity));
@@ -1631,6 +1595,11 @@ details summary::-webkit-details-marker {
     background-color: rgb(14 22 29 / var(--tw-bg-opacity));
   }
 
+  .dark\:bg-green-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(160 212 189 / var(--tw-bg-opacity));
+  }
+
   .dark\:fill-gray-50 {
     fill: #F9FAFB;
   }
@@ -1658,6 +1627,11 @@ details summary::-webkit-details-marker {
     color: rgb(249 250 251 / var(--tw-text-opacity));
   }
 
+  .dark\:text-gray-900 {
+    --tw-text-opacity: 1;
+    color: rgb(17 26 35 / var(--tw-text-opacity));
+  }
+
   .dark\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1682,8 +1656,8 @@ details summary::-webkit-details-marker {
     background-color: rgb(37 56 74 / 0.8);
   }
 
-  .dark\:hover\:bg-gray-900\/90:hover {
-    background-color: rgb(17 26 35 / 0.9);
+  .dark\:hover\:bg-green-300\/90:hover {
+    background-color: rgb(160 212 189 / 0.9);
   }
 
   .dark\:hover\:stroke-gray-400:hover {

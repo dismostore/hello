@@ -4,7 +4,7 @@ import { Card } from "./ui/card";
 
 export default async function Product({ database }) {
   return (
-    <section aria-labelledby="Product overview">
+    <section aria-labelledby="product overview">
       <MaxWidthWrapper className="py-12 lg:py-16">
         <div className="flex flex-col gap-8 sm:gap-12 lg:flex-row lg:gap-16">
           <div className="relative mx-auto w-full max-w-2xl">
@@ -15,7 +15,7 @@ export default async function Product({ database }) {
             />
             <div className="absolute right-2 top-2 h-auto w-1/3 sm:right-4 sm:top-4 sm:w-1/4 lg:-right-6 lg:-top-6">
               <span className="sr-only">
-                Ecologi - 1 tree planted with every order
+                Ecologi sticker - 1 tree planted with every order
               </span>
               <Icons.Ecologi />
             </div>
@@ -24,9 +24,7 @@ export default async function Product({ database }) {
             <h1 className="mb-1 text-3xl font-bold text-gray-800 dark:text-gray-50">
               {database.model}
             </h1>
-            <h2 id="information-heading" className="sr-only">
-              Product information
-            </h2>
+            <h2 className="sr-only">Product information</h2>
             <p className="mb-6 text-sm text-gray-500 dark:text-gray-400">
               {database.colour} | {database.storage} | {database.network}
             </p>
@@ -52,19 +50,20 @@ export default async function Product({ database }) {
                 </div>
               </div>
               <div className="flex items-center -space-x-2">
+                <span className="sr-only">
+                  International shipping to Great Britian, Ireland, Germany,
+                  France, USA, South Africa and many more!
+                </span>
                 <Icons.GB />
-                <span className="sr-only">Great Britian</span>
                 <Icons.IE />
-                <span className="sr-only">Ireland</span>
                 <Icons.DE />
-                <span className="sr-only">Germany</span>
                 <Icons.FR />
-                <span className="sr-only">France</span>
                 <Icons.US />
-                <span className="sr-only">USA</span>
                 <Icons.ZA />
-                <span className="sr-only">South Africa</span>
-                <div className="relative z-60 inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 font-inter text-sm font-medium text-gray-800 ring-2 ring-white dark:bg-gray-700 dark:text-gray-50 dark:ring-gray-900">
+                <div
+                  aria-hidden="true"
+                  className="relative z-60 inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 font-inter text-sm font-medium text-gray-800 ring-2 ring-white dark:bg-gray-700 dark:text-gray-50 dark:ring-gray-900"
+                >
                   9+
                 </div>
               </div>

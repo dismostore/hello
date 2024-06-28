@@ -11,7 +11,6 @@ export default function Details({ children, className, title, aria }) {
         <h3 className="max-w-3xl font-semibold text-gray-800 dark:text-gray-50">
           {title}
         </h3>
-        <span className="sr-only">Expand</span>
         <Icons.Accordian />
       </summary>
       <div className="mt-4">{children}</div>

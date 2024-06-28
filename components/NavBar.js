@@ -6,15 +6,13 @@ export default function NavBar() {
   return (
     <header className="top-0 border-b border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
       <MaxWidthWrapper>
-        <nav
-          className="relative flex h-16 items-center justify-between"
-          aria-label="Global"
-        >
+        <nav className="relative flex h-16 items-center justify-between">
           <a href="" className={linkVariants({ variant: "logo" })}>
             <Icons.Logo
               fillColor="fill-gray-800 dark:fill-gray-50"
-              className="h-6 w-auto"
+              className="h-6 w-auto overflow-visible"
             />
+            <span className="sr-only">DISMO</span>
           </a>
           <div className="hidden h-14 justify-center space-x-6 lg:flex">
             <a href="" className={linkVariants({ variant: "default" })}>

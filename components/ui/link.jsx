@@ -12,7 +12,7 @@ const linkVariants = cva(
         default:
           "text-gray-600 dark:text-gray-300 font-medium underline-offset-4 hover:underline hover:text-gray-800 dark:hover:text-gray-50",
         footer:
-          "text-gray-300 hover:text-gray-50 font-semibold p-2 -ml-2 sm:ml-0",
+          "text-gray-300 font-medium underline-offset-4 hover:underline hover:text-gray-50 p-2 -ml-2 sm:ml-0",
         icon: "stroke-gray-400 dark:stroke-gray-500 hover:stroke-gray-500 dark:hover:stroke-gray-400 rounded-lg",
         logo: "-ml-2",
       },
