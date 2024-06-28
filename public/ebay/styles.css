@@ -1590,11 +1590,6 @@ details summary::-webkit-details-marker {
     background-color: rgb(17 26 35 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-gray-950 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(14 22 29 / var(--tw-bg-opacity));
-  }
-
   .dark\:bg-green-300 {
     --tw-bg-opacity: 1;
     background-color: rgb(160 212 189 / var(--tw-bg-opacity));
