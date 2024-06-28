@@ -35,7 +35,9 @@ export default async function FAQ({ database }) {
             </div>
             <div className="mx-auto">
               <a href="" className={buttonVariants({ variant: "default" })}>
-                Get support
+                <span className="font-inter text-sm font-medium text-white dark:text-gray-900">
+                  Get support
+                </span>
               </a>
             </div>
           </div>
