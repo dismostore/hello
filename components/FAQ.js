@@ -17,6 +17,7 @@ export default async function FAQ({ database }) {
               Everything you need to know about the product and billing.
             </p>
           </div>
+
           <div className="flex flex-col gap-6 rounded-2xl bg-gray-50 px-8 pb-10 pt-8 dark:bg-gray-800">
             <div className="flex items-end justify-center -space-x-2">
               <Icons.EmployeeOne />
