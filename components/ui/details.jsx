@@ -4,16 +4,16 @@ export default function Details({ children, className, title, aria }) {
   return (
     <details className={`group ${className}`}>
       <summary
-        className="-m-2 flex cursor-pointer list-none items-center justify-between p-2 font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-600 dark:focus-visible:ring-green-300"
+        className="upa yez znp irx saf nmm mtg ygz elq jig cba"
         aria-expanded="false"
         aria-controls={aria}
       >
-        <h3 className="max-w-3xl font-semibold text-gray-800 dark:text-gray-50">
+        <h3 className="rvj cbh rui elp">
           {title}
         </h3>
         <Icons.Accordian />
       </summary>
-      <div className="mt-4">{children}</div>
+      <div className="uej">{children}</div>
     </details>
   );
 }
